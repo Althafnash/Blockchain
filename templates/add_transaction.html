@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcations</title>
+</head>
+<body>
+    <h1>Add new Transcations</h1>
+    <form action="/add_transaction" method="post">
+        <label for="sender">Sender:</label>
+        <input type="text" id="sender" name="sender" required><br><br>
+    
+        <label for="receiver">Receiver:</label> <!-- Corrected here -->
+        <input type="text" id="receiver" name="receiver" required><br><br>
+    
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount" name="amount" required><br><br>
+    
+        <button type="submit">Submit</button>
+    </form>    
+</body>
+</html>
